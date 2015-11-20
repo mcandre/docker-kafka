@@ -1,0 +1,13 @@
+zookeeper:
+  image: mcandre/docker-zookeeper:latest
+  ports:
+    - "2181:2181"
+kafka:
+  image: mcandre/docker-kafka:latest
+  ports:
+    - "9092:9092"
+  links:
+    - zookeeper:zk
+  environment:
+    KAFKA_ADVERTISED_HOST_NAME: 192.168.99.100
+    KAFKA_ADVERTISED_PORT: 9092
