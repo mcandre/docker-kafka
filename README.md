@@ -9,13 +9,13 @@ https://registry.hub.docker.com/u/mcandre/docker-kafka/
 Mac and Windows users can configure docker-compose with:
 
 ```
-$ ln -sf docker-compose-docker-machine.yml docker-compose.yml
+$ ln -sf docker-compose-docker-machine.yml.sample docker-compose.yml
 ```
 
 Linux users can:
 
 ```
-$ ln -sf docker-compose-linux-host.yml
+$ ln -sf docker-compose-linux-host.yml.sample docker-compose.yml
 ```
 
 Then:
