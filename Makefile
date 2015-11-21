@@ -1,5 +1,5 @@
 ZOOKEEPER_IMAGE=mcandre/docker-zookeeper:latest
-KAFKA_IMAGE=mcandre/docker-kafka:latest
+KAFKA_IMAGE=mcandre/docker-kafka:2.10-0.8.2.2
 
 export LOCALHOST=$$(docker-machine ip default)
 
