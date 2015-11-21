@@ -3,7 +3,7 @@ zookeeper:
   ports:
     - "2181:2181"
 kafka:
-  image: mcandre/docker-kafka:2.11-0.8.2.0
+  image: mcandre/docker-kafka:2.11-0.8.2-beta
   ports:
     - "9092:9092"
   links:
