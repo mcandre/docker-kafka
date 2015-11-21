@@ -1,4 +1,4 @@
-IMAGE=mcandre/docker-kafka:0.5.2
+IMAGE=mcandre/docker-kafka:0.05
 
 export LOCALHOST=$$(docker-machine ip default)
 
