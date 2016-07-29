@@ -6,10 +6,16 @@ https://registry.hub.docker.com/u/mcandre/docker-kafka/
 
 # EXAMPLE
 
-Mac and Windows users can configure docker-compose with:
+non-Linux users (e.g. Mac OS) can configure docker-compose with:
 
 ```
 $ ln -sf docker-compose-docker-machine.yml.sample docker-compose.yml
+```
+
+Windows users can create a soft link in an administrator shell, using [mklink](https://technet.microsoft.com/en-us/library/cc753194(v=ws.11).aspx):
+
+```
+C:\ admin> cmd /c mklink docker-compose.yml docker-compose-docker-machine.yml.sample
 ```
 
 Linux users can:
