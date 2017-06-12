@@ -1,4 +1,5 @@
 #!/bin/sh
+set -euo pipefail
 
 CONFIG="${KAFKA_HOME}/config/server.properties"
 
